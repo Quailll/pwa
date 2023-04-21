@@ -23,16 +23,20 @@ module.exports = () => {
         title: "IndexedDB Demo",
       }),
       new WebpackPwaManifest({
-        name: "My Progressive Web App",
-        short_name: "MyPWA",
-        description: "My awesome Progressive Web App!",
-        background_color: "#ffffff",
-        crossorigin: "use-credentials", //can be null, use-credentials or anonymous
+        fingerprints: false,
+        inject: true,
+        name: "Just Another Text Editor",
+        short_name: "J.A.T.E",
+        description: "Takes notes with JavaScript syntax highlighting!",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
             src: path.resolve("src/images/logo.png"),
-            sizes: [96, 128, 192, 256, 384, 512], 
-            destination: path.join('assests', 'icon'), // multiple sizes
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join("assets", "icons"),
           },
         ],
       }),
