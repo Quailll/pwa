@@ -36,6 +36,14 @@ The scripts that were used to be able to run everything at once instead of doing
 
 The plugin that were used in the code. 
 ![](./images/Screenshot%202023-04-21%20122249.png)
+
+![](./images/Screenshot%202023-04-21%20124706.png)
+
+![](./images/Screenshot%202023-04-21%20124759.png)
+
+![](./images/Screenshot%202023-04-21%20124810.png)
+
+![](./images/Screenshot%202023-04-21%20124827.png)
 ### License
 MIT license
 ### Test
